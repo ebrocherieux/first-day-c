@@ -1,6 +1,6 @@
 node {
    echo 'Hello World'
-   git scm
+   checkout scm
    sh 'make'
 }
 
