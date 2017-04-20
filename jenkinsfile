@@ -1,6 +1,9 @@
 node {
+   stage 'hello'
    echo 'Hello World'
+   stage 'scm'
    checkout scm
+   stage 'make'
    sh 'make'
 }
 
